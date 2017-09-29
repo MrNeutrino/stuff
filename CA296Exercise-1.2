@@ -29,7 +29,7 @@ caption		BYTE	'Welcome to CA296',0
 		mov y,eax		;move integer to y
 		add eax,x		;adds x+y
 
-;now im supposed to print it :<
+		;now im supposed to print it :<
 
 		invoke MessageBox,0,ADDR message,ADDR caption,MB_OK
 		invoke ExitProcess,0
